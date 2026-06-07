@@ -1,0 +1,23 @@
+# Private Keys and Environment Variables (CRUCIAL)
+.env
+.env.local
+*.env
+
+# Python files you don't need to track
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments (If you use them to install packages)
+.venv/
+venv/
+ENV/
+env/
+
+# Streamlit configuration and temporary files
+.streamlit/
+
+# Operating System files
+.DS_Store
+Thumbs.db
